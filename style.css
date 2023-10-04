@@ -1,0 +1,65 @@
+/* Stylování nadpisů */
+h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+h2 {
+    color: #666;
+    font-size: 20px;
+}
+
+/* Stylování odstavců */
+p {
+    line-height: 1;
+}
+
+/* Stylování tabulky */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 3px solid #ccc;
+}
+
+/* Stylování seznamu */
+ul {
+    list-style-type: disc;
+}
+
+/* Stylování obrázků */
+img {
+    max-width: 20%;
+    height: auto;
+}
+
+/* Použití tříd */
+.my-class {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.another-class {
+    font-weight: bold;
+}
+
+/* Stylování tagů */
+em {
+    font-style: italic;
+}
+
+strong {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #10AF52;
+}
+/* Stylování pozadí */
+.background {
+    background: linear-gradient(to bottom, red, green);
+    height: 100vh; /* 100% výšky viewportu */
+}
